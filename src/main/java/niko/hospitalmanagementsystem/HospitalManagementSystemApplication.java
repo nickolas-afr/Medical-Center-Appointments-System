@@ -1,14 +1,14 @@
 package niko.hospitalmanagementsystem;
 
-import com.fasterxml.jackson.core.PrettyPrinter;
+//import com.fasterxml.jackson.core.PrettyPrinter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import javax.xml.transform.Result;
+//import javax.xml.transform.Result;
 import java.sql.*;
-import java.time.DateTimeException;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+//import java.time.DateTimeException;
+//import java.time.LocalDate;
+//import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 import static niko.hospitalmanagementsystem.CenterText.centerText;
@@ -38,7 +38,7 @@ public class HospitalManagementSystemApplication {
                 System.out.println("|" + centerText("5-View appointments by date.", 33) + "|");
                 System.out.println("|" + centerText("6-Exit.", 33) + "|");
                 System.out.println("|*********************************|");
-                System.out.println(">> Enter your choice: ");
+                System.out.print(">> Enter your choice: ");
                 int choice = scanner.nextInt();
 
                 switch(choice){
